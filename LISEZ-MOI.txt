@@ -1,0 +1,20 @@
+IBS-SOC-TRAD-WORLD — WORLD EDITION 1.0 (prototype)
+Fonctions : fil d'actualité local, publications colorées, photos/vidéos petites, j'aime, commentaires, partage, profil avec photo/couverture/bio, liens Google Actualités, deux micros alternés, choix de 20 langues pour la reconnaissance vocale du navigateur, lecture vocale, brouillon de message, communauté locale et paramètres.
+
+LIMITES IMPORTANTES
+- Ce ZIP est un site web, pas un APK Android.
+- Les posts/profil/commentaires/brouillons sont stockés sur le téléphone courant, pas partagés entre utilisateurs.
+- Les micros utilisent la reconnaissance vocale du navigateur si disponible. Il n'y a pas encore de traduction automatique entre les langues : il faut connecter un service de traduction via un serveur sécurisé, qui peut être payant.
+- Les messages sont seulement des brouillons locaux; aucun message n'est envoyé à une autre personne.
+- Les actualités sont des liens vers Google Actualités et les éditeurs, pas un flux d'articles copié dans l'application.
+- Ne place jamais de clés API dans un dépôt GitHub public.
+
+POUR PUBLIER SUR GITHUB PAGES
+1. Téléverse tous les fichiers et le dossier icons dans la racine du dépôt.
+2. Dans GitHub, ouvre Settings > Pages.
+3. Choisis Deploy from a branch, branche main, dossier /(root), puis Save.
+4. Attends l'adresse publiée, ouvre-la dans Chrome sur Android.
+5. Menu ⋮ de Chrome > Ajouter à l'écran d'accueil / Installer l'application.
+6. Autorise le microphone si demandé. La reconnaissance vocale peut exiger Internet.
+
+Pour un réseau mondial réel, il faudra ajouter un serveur, comptes utilisateurs, base de données, stockage de médias, messagerie, modération et sécurité.
